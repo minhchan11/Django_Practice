@@ -7,3 +7,10 @@ python manage.py migrate
 python manage.py makemigrations blog
 python manage.py migrate blog
 python manage.py createsuperuser
+
+(pythonanywhere)
+pip3.6 install --user pythonanywhere
+pa_autoconfigure_django.py https://github.com/minhchan11/Django_Practice.git
+python manage.py createsuperuser 
+python manage.py collectstatic
+(/pythonanywhere)
